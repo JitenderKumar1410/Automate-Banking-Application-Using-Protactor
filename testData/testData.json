@@ -1,0 +1,27 @@
+{
+    "homePageUrl": "http://www.way2automation.com/angularjs-protractor/banking/#/login",
+    "homePageTitle": "Protractor practice website - Banking App",
+    "customerLoginPage": "http://www.way2automation.com/angularjs-protractor/banking/#/customer",
+    "customerLogin": "Customer Login",
+    "textOnCustomerLogin": "Your Name :",
+    "textOnDeposit":"Amount to be Deposited :",
+    "textOnWithdrawl":"Amount to be Withdrawn :",
+    "textOnHome":"XYZ Bank",
+    "home": "Home",
+
+
+    "bankManagerLogin": "Bank Manager Login",
+    "addCustomer": "Add Customer",
+    "openAccount": "Open Account",
+    "customers": "Customers",
+    "process":"Process",
+    "textOnAddCustomer": "First Name :",
+    "textOnOpenAccount": "Customer :",
+    "bankManagerLoginPage": "http://www.way2automation.com/angularjs-protractor/banking/#/manager",
+    "addCustomerPage": "http://www.way2automation.com/angularjs-protractor/banking/#/manager/addCust",
+    "openAccountPage": "http://www.way2automation.com/angularjs-protractor/banking/#/manager/openAccount",
+    "customersPage": "http://www.way2automation.com/angularjs-protractor/banking/#/manager/list",
+
+    "customerAddedSuccessful": "Customer added successfully with customer id :",
+    "customerCreatedWithAccountNumber":"Account created successfully with account Number :"
+}

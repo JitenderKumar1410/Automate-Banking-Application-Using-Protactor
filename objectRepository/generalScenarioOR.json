@@ -1,0 +1,7 @@
+{
+    "Locators": {
+        "textOnHome": "//div[@class='box mainhdr']//strong",
+        "home":"//button[contains(text(), 'Home')]"
+        
+    }
+}

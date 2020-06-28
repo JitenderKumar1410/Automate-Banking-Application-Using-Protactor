@@ -1,0 +1,363 @@
+[2019-07-15T16:38:43.765] [INFO] protractorLog4js - ******** Execution of Scenario 'Verify the login and logout functionality of XYZ bank' has been started.********
+[2019-07-15T16:38:43.768] [INFO] protractorLog4js - Browser is opening the URL: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:38:46.803] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:38:47.046] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/login Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:38:47.047] [INFO] protractorLog4js - Expected title of the page is: Protractor practice website - Banking App
+[2019-07-15T16:38:47.076] [DEBUG] protractorLog4js - Current Title of page is : Protractor practice website - Banking App Should be equal to: Protractor practice website - Banking App
+[2019-07-15T16:38:47.079] [INFO] protractorLog4js - Getting the text from webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:38:47.080] [INFO] protractorLog4js - Expected text would be :Customer Login
+[2019-07-15T16:38:47.147] [DEBUG] protractorLog4js - Text on webelement ://button[contains(text(), 'Customer Login')] Should be equal to Customer Login
+[2019-07-15T16:38:47.149] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:38:47.233] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:38:48.238] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:38:48.260] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/customer Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:38:48.263] [INFO] protractorLog4js - Getting the text from webelement ://label
+[2019-07-15T16:38:48.263] [INFO] protractorLog4js - Expected text would be :Your Name :
+[2019-07-15T16:38:48.316] [DEBUG] protractorLog4js - Text on webelement ://label Should be equal to Your Name :
+[2019-07-15T16:38:48.318] [INFO] protractorLog4js - Selecting Hermoine Grangeroption from the dropdown
+[2019-07-15T16:38:49.385] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Login')]
+[2019-07-15T16:38:49.536] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Login')]
+[2019-07-15T16:38:50.540] [INFO] protractorLog4js - Getting the text from webelement ://strong//span[1]
+[2019-07-15T16:38:50.542] [INFO] protractorLog4js - Expected text would be :Hermoine Granger
+[2019-07-15T16:38:50.674] [DEBUG] protractorLog4js - Text on webelement ://strong//span[1] Should be equal to Hermoine Granger
+[2019-07-15T16:38:50.677] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Logout')]
+[2019-07-15T16:38:50.821] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Logout')]
+[2019-07-15T16:38:51.824] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:38:51.849] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/customer Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:38:51.851] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Home')]
+[2019-07-15T16:38:51.946] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Home')]
+[2019-07-15T16:38:52.950] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:38:53.010] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/login Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:38:53.013] [INFO] protractorLog4js - Expected title of the page is: Protractor practice website - Banking App
+[2019-07-15T16:38:53.070] [DEBUG] protractorLog4js - Current Title of page is : Protractor practice website - Banking App Should be equal to: Protractor practice website - Banking App
+[2019-07-15T16:38:53.078] [INFO] protractorLog4js - ****** Execution of Scenario 'Verify the login and logout functionality of XYZ bank' has been completed.********
+[2019-07-15T16:38:53.088] [INFO] protractorLog4js - ******** Execution of Scenario 'Verify the login and logout functionality of XYZ bank' has been started.********
+[2019-07-15T16:38:53.091] [INFO] protractorLog4js - Browser is opening the URL: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:38:54.008] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:38:54.071] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/login Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:38:54.073] [INFO] protractorLog4js - Expected title of the page is: Protractor practice website - Banking App
+[2019-07-15T16:38:54.109] [DEBUG] protractorLog4js - Current Title of page is : Protractor practice website - Banking App Should be equal to: Protractor practice website - Banking App
+[2019-07-15T16:38:54.114] [INFO] protractorLog4js - Getting the text from webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:38:54.115] [INFO] protractorLog4js - Expected text would be :Customer Login
+[2019-07-15T16:38:54.188] [DEBUG] protractorLog4js - Text on webelement ://button[contains(text(), 'Customer Login')] Should be equal to Customer Login
+[2019-07-15T16:38:54.190] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:38:54.281] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:38:55.287] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:38:55.345] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/customer Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:38:55.350] [INFO] protractorLog4js - Getting the text from webelement ://label
+[2019-07-15T16:38:55.351] [INFO] protractorLog4js - Expected text would be :Your Name :
+[2019-07-15T16:38:55.412] [DEBUG] protractorLog4js - Text on webelement ://label Should be equal to Your Name :
+[2019-07-15T16:38:55.415] [INFO] protractorLog4js - Selecting Harry Potteroption from the dropdown
+[2019-07-15T16:38:56.520] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Login')]
+[2019-07-15T16:38:56.759] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Login')]
+[2019-07-15T16:38:57.768] [INFO] protractorLog4js - Getting the text from webelement ://strong//span[1]
+[2019-07-15T16:38:57.768] [INFO] protractorLog4js - Expected text would be :Harry Potter
+[2019-07-15T16:38:57.826] [DEBUG] protractorLog4js - Text on webelement ://strong//span[1] Should be equal to Harry Potter
+[2019-07-15T16:38:57.827] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Logout')]
+[2019-07-15T16:38:57.922] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Logout')]
+[2019-07-15T16:38:58.925] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:38:58.951] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/customer Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:38:58.954] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Home')]
+[2019-07-15T16:38:59.039] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Home')]
+[2019-07-15T16:39:00.042] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:00.131] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/login Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:00.132] [INFO] protractorLog4js - Expected title of the page is: Protractor practice website - Banking App
+[2019-07-15T16:39:00.163] [DEBUG] protractorLog4js - Current Title of page is : Protractor practice website - Banking App Should be equal to: Protractor practice website - Banking App
+[2019-07-15T16:39:00.165] [INFO] protractorLog4js - ****** Execution of Scenario 'Verify the login and logout functionality of XYZ bank' has been completed.********
+[2019-07-15T16:39:00.171] [INFO] protractorLog4js - ******** Execution of Scenario 'Verify the login and logout functionality of XYZ bank' has been started.********
+[2019-07-15T16:39:00.173] [INFO] protractorLog4js - Browser is opening the URL: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:01.046] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:01.094] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/login Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:01.095] [INFO] protractorLog4js - Expected title of the page is: Protractor practice website - Banking App
+[2019-07-15T16:39:01.121] [DEBUG] protractorLog4js - Current Title of page is : Protractor practice website - Banking App Should be equal to: Protractor practice website - Banking App
+[2019-07-15T16:39:01.123] [INFO] protractorLog4js - Getting the text from webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:39:01.124] [INFO] protractorLog4js - Expected text would be :Customer Login
+[2019-07-15T16:39:01.189] [DEBUG] protractorLog4js - Text on webelement ://button[contains(text(), 'Customer Login')] Should be equal to Customer Login
+[2019-07-15T16:39:01.192] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:39:01.287] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:39:02.290] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:39:02.347] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/customer Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:39:02.352] [INFO] protractorLog4js - Getting the text from webelement ://label
+[2019-07-15T16:39:02.353] [INFO] protractorLog4js - Expected text would be :Your Name :
+[2019-07-15T16:39:02.435] [DEBUG] protractorLog4js - Text on webelement ://label Should be equal to Your Name :
+[2019-07-15T16:39:02.438] [INFO] protractorLog4js - Selecting Ron Weaslyoption from the dropdown
+[2019-07-15T16:39:03.515] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Login')]
+[2019-07-15T16:39:03.661] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Login')]
+[2019-07-15T16:39:04.668] [INFO] protractorLog4js - Getting the text from webelement ://strong//span[1]
+[2019-07-15T16:39:04.670] [INFO] protractorLog4js - Expected text would be :Ron Weasly
+[2019-07-15T16:39:04.761] [DEBUG] protractorLog4js - Text on webelement ://strong//span[1] Should be equal to Ron Weasly
+[2019-07-15T16:39:04.764] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Logout')]
+[2019-07-15T16:39:04.870] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Logout')]
+[2019-07-15T16:39:05.873] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:39:05.920] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/customer Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:39:05.925] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Home')]
+[2019-07-15T16:39:06.054] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Home')]
+[2019-07-15T16:39:07.062] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:07.124] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/login Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:07.127] [INFO] protractorLog4js - Expected title of the page is: Protractor practice website - Banking App
+[2019-07-15T16:39:07.183] [DEBUG] protractorLog4js - Current Title of page is : Protractor practice website - Banking App Should be equal to: Protractor practice website - Banking App
+[2019-07-15T16:39:07.186] [INFO] protractorLog4js - ****** Execution of Scenario 'Verify the login and logout functionality of XYZ bank' has been completed.********
+[2019-07-15T16:39:07.191] [INFO] protractorLog4js - ******** Execution of Scenario 'Verify the login and logout functionality of XYZ bank' has been started.********
+[2019-07-15T16:39:07.193] [INFO] protractorLog4js - Browser is opening the URL: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:08.097] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:08.137] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/login Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:08.138] [INFO] protractorLog4js - Expected title of the page is: Protractor practice website - Banking App
+[2019-07-15T16:39:08.176] [DEBUG] protractorLog4js - Current Title of page is : Protractor practice website - Banking App Should be equal to: Protractor practice website - Banking App
+[2019-07-15T16:39:08.180] [INFO] protractorLog4js - Getting the text from webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:39:08.181] [INFO] protractorLog4js - Expected text would be :Customer Login
+[2019-07-15T16:39:08.247] [DEBUG] protractorLog4js - Text on webelement ://button[contains(text(), 'Customer Login')] Should be equal to Customer Login
+[2019-07-15T16:39:08.250] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:39:08.355] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:39:09.357] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:39:09.385] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/customer Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:39:09.388] [INFO] protractorLog4js - Getting the text from webelement ://label
+[2019-07-15T16:39:09.388] [INFO] protractorLog4js - Expected text would be :Your Name :
+[2019-07-15T16:39:09.452] [DEBUG] protractorLog4js - Text on webelement ://label Should be equal to Your Name :
+[2019-07-15T16:39:09.454] [INFO] protractorLog4js - Selecting Albus Dumbledoreoption from the dropdown
+[2019-07-15T16:39:10.522] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Login')]
+[2019-07-15T16:39:10.606] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Login')]
+[2019-07-15T16:39:11.611] [INFO] protractorLog4js - Getting the text from webelement ://strong//span[1]
+[2019-07-15T16:39:11.611] [INFO] protractorLog4js - Expected text would be :Albus Dumbledore
+[2019-07-15T16:39:11.665] [DEBUG] protractorLog4js - Text on webelement ://strong//span[1] Should be equal to Albus Dumbledore
+[2019-07-15T16:39:11.668] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Logout')]
+[2019-07-15T16:39:11.754] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Logout')]
+[2019-07-15T16:39:12.757] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:39:12.782] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/customer Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:39:12.784] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Home')]
+[2019-07-15T16:39:12.872] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Home')]
+[2019-07-15T16:39:13.875] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:13.902] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/login Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:13.903] [INFO] protractorLog4js - Expected title of the page is: Protractor practice website - Banking App
+[2019-07-15T16:39:13.930] [DEBUG] protractorLog4js - Current Title of page is : Protractor practice website - Banking App Should be equal to: Protractor practice website - Banking App
+[2019-07-15T16:39:13.932] [INFO] protractorLog4js - ****** Execution of Scenario 'Verify the login and logout functionality of XYZ bank' has been completed.********
+[2019-07-15T16:39:13.940] [INFO] protractorLog4js - ******** Execution of Scenario 'Verify the login and logout functionality of XYZ bank' has been started.********
+[2019-07-15T16:39:13.942] [INFO] protractorLog4js - Browser is opening the URL: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:14.640] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:14.684] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/login Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:14.688] [INFO] protractorLog4js - Expected title of the page is: Protractor practice website - Banking App
+[2019-07-15T16:39:14.721] [DEBUG] protractorLog4js - Current Title of page is : Protractor practice website - Banking App Should be equal to: Protractor practice website - Banking App
+[2019-07-15T16:39:14.723] [INFO] protractorLog4js - Getting the text from webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:39:14.724] [INFO] protractorLog4js - Expected text would be :Customer Login
+[2019-07-15T16:39:14.784] [DEBUG] protractorLog4js - Text on webelement ://button[contains(text(), 'Customer Login')] Should be equal to Customer Login
+[2019-07-15T16:39:14.786] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:39:14.884] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:39:15.889] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:39:15.916] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/customer Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:39:15.922] [INFO] protractorLog4js - Getting the text from webelement ://label
+[2019-07-15T16:39:15.923] [INFO] protractorLog4js - Expected text would be :Your Name :
+[2019-07-15T16:39:15.981] [DEBUG] protractorLog4js - Text on webelement ://label Should be equal to Your Name :
+[2019-07-15T16:39:15.984] [INFO] protractorLog4js - Selecting Neville Longbottomoption from the dropdown
+[2019-07-15T16:39:17.057] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Login')]
+[2019-07-15T16:39:17.144] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Login')]
+[2019-07-15T16:39:18.147] [INFO] protractorLog4js - Getting the text from webelement ://strong//span[1]
+[2019-07-15T16:39:18.148] [INFO] protractorLog4js - Expected text would be :Neville Longbottom
+[2019-07-15T16:39:18.202] [DEBUG] protractorLog4js - Text on webelement ://strong//span[1] Should be equal to Neville Longbottom
+[2019-07-15T16:39:18.205] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Logout')]
+[2019-07-15T16:39:18.293] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Logout')]
+[2019-07-15T16:39:19.296] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:39:19.324] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/customer Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:39:19.326] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Home')]
+[2019-07-15T16:39:19.415] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Home')]
+[2019-07-15T16:39:20.420] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:20.447] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/login Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:20.448] [INFO] protractorLog4js - Expected title of the page is: Protractor practice website - Banking App
+[2019-07-15T16:39:20.475] [DEBUG] protractorLog4js - Current Title of page is : Protractor practice website - Banking App Should be equal to: Protractor practice website - Banking App
+[2019-07-15T16:39:20.478] [INFO] protractorLog4js - ****** Execution of Scenario 'Verify the login and logout functionality of XYZ bank' has been completed.********
+[2019-07-15T16:39:20.483] [INFO] protractorLog4js - ******** Execution of Scenario 'Verify the deposit and withdrawl functionality of XYZ bank' has been started.********
+[2019-07-15T16:39:20.485] [INFO] protractorLog4js - Browser is opening the URL: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:21.282] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:21.311] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/login Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:21.312] [INFO] protractorLog4js - Expected title of the page is: Protractor practice website - Banking App
+[2019-07-15T16:39:21.338] [DEBUG] protractorLog4js - Current Title of page is : Protractor practice website - Banking App Should be equal to: Protractor practice website - Banking App
+[2019-07-15T16:39:21.340] [INFO] protractorLog4js - Getting the text from webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:39:21.340] [INFO] protractorLog4js - Expected text would be :Customer Login
+[2019-07-15T16:39:21.395] [DEBUG] protractorLog4js - Text on webelement ://button[contains(text(), 'Customer Login')] Should be equal to Customer Login
+[2019-07-15T16:39:21.397] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:39:21.495] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:39:22.500] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:39:22.526] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/customer Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:39:22.529] [INFO] protractorLog4js - Getting the text from webelement ://label
+[2019-07-15T16:39:22.530] [INFO] protractorLog4js - Expected text would be :Your Name :
+[2019-07-15T16:39:22.586] [DEBUG] protractorLog4js - Text on webelement ://label Should be equal to Your Name :
+[2019-07-15T16:39:22.590] [INFO] protractorLog4js - Selecting Hermoine Grangeroption from the dropdown
+[2019-07-15T16:39:23.657] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Login')]
+[2019-07-15T16:39:23.741] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Login')]
+[2019-07-15T16:39:24.743] [INFO] protractorLog4js - Getting the text from webelement ://strong//span[1]
+[2019-07-15T16:39:24.744] [INFO] protractorLog4js - Expected text would be :Hermoine Granger
+[2019-07-15T16:39:24.805] [DEBUG] protractorLog4js - Text on webelement ://strong//span[1] Should be equal to Hermoine Granger
+[2019-07-15T16:39:24.807] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Deposit')]
+[2019-07-15T16:39:24.893] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Deposit')]
+[2019-07-15T16:39:25.896] [INFO] protractorLog4js - Getting the text from webelement ://div[@class='form-group']//label
+[2019-07-15T16:39:25.897] [INFO] protractorLog4js - Expected text would be :Amount to be Deposited :
+[2019-07-15T16:39:25.957] [DEBUG] protractorLog4js - Text on webelement ://div[@class='form-group']//label Should be equal to Amount to be Deposited :
+[2019-07-15T16:39:26.076] [INFO] protractorLog4js - Text 1000 is set on webelement: //input[@ng-model='amount']
+[2019-07-15T16:39:26.193] [INFO] protractorLog4js - Clicked on webelement ://button[@type='submit']
+[2019-07-15T16:39:28.196] [INFO] protractorLog4js - Getting the text from webelement ://div[@class='ng-scope']//span[text()='Deposit Successful']
+[2019-07-15T16:39:28.197] [INFO] protractorLog4js - Expected text would be :Deposit Successful
+[2019-07-15T16:39:28.256] [DEBUG] protractorLog4js - Text on webelement ://div[@class='ng-scope']//span[text()='Deposit Successful'] Should be equal to Deposit Successful
+[2019-07-15T16:39:28.259] [INFO] protractorLog4js - ****** Execution of Scenario 'Verify the deposit and withdrawl functionality of XYZ bank' has been completed.********
+[2019-07-15T16:39:28.263] [INFO] protractorLog4js - ******** Execution of Scenario 'Verify the deposit and withdrawl functionality of XYZ bank' has been started.********
+[2019-07-15T16:39:28.265] [INFO] protractorLog4js - Browser is opening the URL: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:29.130] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:29.162] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/login Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:29.163] [INFO] protractorLog4js - Expected title of the page is: Protractor practice website - Banking App
+[2019-07-15T16:39:29.191] [DEBUG] protractorLog4js - Current Title of page is : Protractor practice website - Banking App Should be equal to: Protractor practice website - Banking App
+[2019-07-15T16:39:29.193] [INFO] protractorLog4js - Getting the text from webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:39:29.199] [INFO] protractorLog4js - Expected text would be :Customer Login
+[2019-07-15T16:39:29.256] [DEBUG] protractorLog4js - Text on webelement ://button[contains(text(), 'Customer Login')] Should be equal to Customer Login
+[2019-07-15T16:39:29.258] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:39:29.370] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:39:30.377] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:39:30.409] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/customer Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:39:30.411] [INFO] protractorLog4js - Getting the text from webelement ://label
+[2019-07-15T16:39:30.412] [INFO] protractorLog4js - Expected text would be :Your Name :
+[2019-07-15T16:39:30.472] [DEBUG] protractorLog4js - Text on webelement ://label Should be equal to Your Name :
+[2019-07-15T16:39:30.476] [INFO] protractorLog4js - Selecting Harry Potteroption from the dropdown
+[2019-07-15T16:39:31.554] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Login')]
+[2019-07-15T16:39:31.639] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Login')]
+[2019-07-15T16:39:32.643] [INFO] protractorLog4js - Getting the text from webelement ://strong//span[1]
+[2019-07-15T16:39:32.644] [INFO] protractorLog4js - Expected text would be :Harry Potter
+[2019-07-15T16:39:32.702] [DEBUG] protractorLog4js - Text on webelement ://strong//span[1] Should be equal to Harry Potter
+[2019-07-15T16:39:32.706] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Deposit')]
+[2019-07-15T16:39:32.810] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Deposit')]
+[2019-07-15T16:39:33.817] [INFO] protractorLog4js - Getting the text from webelement ://div[@class='form-group']//label
+[2019-07-15T16:39:33.818] [INFO] protractorLog4js - Expected text would be :Amount to be Deposited :
+[2019-07-15T16:39:33.887] [DEBUG] protractorLog4js - Text on webelement ://div[@class='form-group']//label Should be equal to Amount to be Deposited :
+[2019-07-15T16:39:34.004] [INFO] protractorLog4js - Text 2000 is set on webelement: //input[@ng-model='amount']
+[2019-07-15T16:39:34.100] [INFO] protractorLog4js - Clicked on webelement ://button[@type='submit']
+[2019-07-15T16:39:36.103] [INFO] protractorLog4js - Getting the text from webelement ://div[@class='ng-scope']//span[text()='Deposit Successful']
+[2019-07-15T16:39:36.103] [INFO] protractorLog4js - Expected text would be :Deposit Successful
+[2019-07-15T16:39:36.155] [DEBUG] protractorLog4js - Text on webelement ://div[@class='ng-scope']//span[text()='Deposit Successful'] Should be equal to Deposit Successful
+[2019-07-15T16:39:36.159] [INFO] protractorLog4js - ****** Execution of Scenario 'Verify the deposit and withdrawl functionality of XYZ bank' has been completed.********
+[2019-07-15T16:39:36.170] [INFO] protractorLog4js - ******** Execution of Scenario 'Verify the deposit and withdrawl functionality of XYZ bank' has been started.********
+[2019-07-15T16:39:36.171] [INFO] protractorLog4js - Browser is opening the URL: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:36.972] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:37.004] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/login Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:37.004] [INFO] protractorLog4js - Expected title of the page is: Protractor practice website - Banking App
+[2019-07-15T16:39:37.028] [DEBUG] protractorLog4js - Current Title of page is : Protractor practice website - Banking App Should be equal to: Protractor practice website - Banking App
+[2019-07-15T16:39:37.030] [INFO] protractorLog4js - Getting the text from webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:39:37.031] [INFO] protractorLog4js - Expected text would be :Customer Login
+[2019-07-15T16:39:37.089] [DEBUG] protractorLog4js - Text on webelement ://button[contains(text(), 'Customer Login')] Should be equal to Customer Login
+[2019-07-15T16:39:37.092] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:39:37.183] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:39:38.190] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:39:38.215] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/customer Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:39:38.217] [INFO] protractorLog4js - Getting the text from webelement ://label
+[2019-07-15T16:39:38.218] [INFO] protractorLog4js - Expected text would be :Your Name :
+[2019-07-15T16:39:38.272] [DEBUG] protractorLog4js - Text on webelement ://label Should be equal to Your Name :
+[2019-07-15T16:39:38.274] [INFO] protractorLog4js - Selecting Albus Dumbledoreoption from the dropdown
+[2019-07-15T16:39:39.336] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Login')]
+[2019-07-15T16:39:39.432] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Login')]
+[2019-07-15T16:39:40.435] [INFO] protractorLog4js - Getting the text from webelement ://strong//span[1]
+[2019-07-15T16:39:40.436] [INFO] protractorLog4js - Expected text would be :Albus Dumbledore
+[2019-07-15T16:39:40.489] [DEBUG] protractorLog4js - Text on webelement ://strong//span[1] Should be equal to Albus Dumbledore
+[2019-07-15T16:39:40.492] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Deposit')]
+[2019-07-15T16:39:40.581] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Deposit')]
+[2019-07-15T16:39:41.588] [INFO] protractorLog4js - Getting the text from webelement ://div[@class='form-group']//label
+[2019-07-15T16:39:41.589] [INFO] protractorLog4js - Expected text would be :Amount to be Deposited :
+[2019-07-15T16:39:41.645] [DEBUG] protractorLog4js - Text on webelement ://div[@class='form-group']//label Should be equal to Amount to be Deposited :
+[2019-07-15T16:39:41.742] [INFO] protractorLog4js - Text 3000 is set on webelement: //input[@ng-model='amount']
+[2019-07-15T16:39:41.829] [INFO] protractorLog4js - Clicked on webelement ://button[@type='submit']
+[2019-07-15T16:39:43.831] [INFO] protractorLog4js - Getting the text from webelement ://div[@class='ng-scope']//span[text()='Deposit Successful']
+[2019-07-15T16:39:43.832] [INFO] protractorLog4js - Expected text would be :Deposit Successful
+[2019-07-15T16:39:43.891] [DEBUG] protractorLog4js - Text on webelement ://div[@class='ng-scope']//span[text()='Deposit Successful'] Should be equal to Deposit Successful
+[2019-07-15T16:39:43.893] [INFO] protractorLog4js - ****** Execution of Scenario 'Verify the deposit and withdrawl functionality of XYZ bank' has been completed.********
+[2019-07-15T16:39:43.898] [INFO] protractorLog4js - ******** Execution of Scenario 'Verify the deposit and withdrawl functionality of XYZ bank' has been started.********
+[2019-07-15T16:39:43.901] [INFO] protractorLog4js - Browser is opening the URL: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:44.761] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:44.787] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/login Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:44.788] [INFO] protractorLog4js - Expected title of the page is: Protractor practice website - Banking App
+[2019-07-15T16:39:44.817] [DEBUG] protractorLog4js - Current Title of page is : Protractor practice website - Banking App Should be equal to: Protractor practice website - Banking App
+[2019-07-15T16:39:44.820] [INFO] protractorLog4js - Getting the text from webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:39:44.821] [INFO] protractorLog4js - Expected text would be :Customer Login
+[2019-07-15T16:39:44.878] [DEBUG] protractorLog4js - Text on webelement ://button[contains(text(), 'Customer Login')] Should be equal to Customer Login
+[2019-07-15T16:39:44.881] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:39:44.976] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:39:45.980] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:39:46.005] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/customer Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:39:46.008] [INFO] protractorLog4js - Getting the text from webelement ://label
+[2019-07-15T16:39:46.009] [INFO] protractorLog4js - Expected text would be :Your Name :
+[2019-07-15T16:39:46.064] [DEBUG] protractorLog4js - Text on webelement ://label Should be equal to Your Name :
+[2019-07-15T16:39:46.066] [INFO] protractorLog4js - Selecting Hermoine Grangeroption from the dropdown
+[2019-07-15T16:39:47.134] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Login')]
+[2019-07-15T16:39:47.215] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Login')]
+[2019-07-15T16:39:48.218] [INFO] protractorLog4js - Getting the text from webelement ://strong//span[1]
+[2019-07-15T16:39:48.219] [INFO] protractorLog4js - Expected text would be :Hermoine Granger
+[2019-07-15T16:39:48.272] [DEBUG] protractorLog4js - Text on webelement ://strong//span[1] Should be equal to Hermoine Granger
+[2019-07-15T16:39:48.274] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Withdrawl')]
+[2019-07-15T16:39:48.361] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Withdrawl')]
+[2019-07-15T16:39:49.365] [INFO] protractorLog4js - Getting the text from webelement ://div[@class='form-group']//label
+[2019-07-15T16:39:49.365] [INFO] protractorLog4js - Expected text would be :Amount to be Withdrawn :
+[2019-07-15T16:39:49.412] [DEBUG] protractorLog4js - Text on webelement ://div[@class='form-group']//label Should be equal to Amount to be Withdrawn :
+[2019-07-15T16:39:49.508] [INFO] protractorLog4js - Text 1000 is set on webelement: //input[@ng-model='amount']
+[2019-07-15T16:39:49.600] [INFO] protractorLog4js - Clicked on webelement ://button[@type='submit']
+[2019-07-15T16:39:51.603] [INFO] protractorLog4js - Getting the text from webelement ://div[@class='ng-scope']//span[text()='Transaction successful']
+[2019-07-15T16:39:51.604] [INFO] protractorLog4js - Expected text would be :Transaction successful
+[2019-07-15T16:39:51.662] [DEBUG] protractorLog4js - Text on webelement ://div[@class='ng-scope']//span[text()='Transaction successful'] Should be equal to Transaction successful
+[2019-07-15T16:39:51.664] [INFO] protractorLog4js - ****** Execution of Scenario 'Verify the deposit and withdrawl functionality of XYZ bank' has been completed.********
+[2019-07-15T16:39:51.669] [INFO] protractorLog4js - ******** Execution of Scenario 'Verify the deposit and withdrawl functionality of XYZ bank' has been started.********
+[2019-07-15T16:39:51.670] [INFO] protractorLog4js - Browser is opening the URL: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:52.463] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:52.490] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/login Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:39:52.491] [INFO] protractorLog4js - Expected title of the page is: Protractor practice website - Banking App
+[2019-07-15T16:39:52.516] [DEBUG] protractorLog4js - Current Title of page is : Protractor practice website - Banking App Should be equal to: Protractor practice website - Banking App
+[2019-07-15T16:39:52.518] [INFO] protractorLog4js - Getting the text from webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:39:52.519] [INFO] protractorLog4js - Expected text would be :Customer Login
+[2019-07-15T16:39:52.570] [DEBUG] protractorLog4js - Text on webelement ://button[contains(text(), 'Customer Login')] Should be equal to Customer Login
+[2019-07-15T16:39:52.573] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:39:52.665] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:39:53.670] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:39:53.719] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/customer Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:39:53.722] [INFO] protractorLog4js - Getting the text from webelement ://label
+[2019-07-15T16:39:53.723] [INFO] protractorLog4js - Expected text would be :Your Name :
+[2019-07-15T16:39:53.781] [DEBUG] protractorLog4js - Text on webelement ://label Should be equal to Your Name :
+[2019-07-15T16:39:53.783] [INFO] protractorLog4js - Selecting Harry Potteroption from the dropdown
+[2019-07-15T16:39:54.852] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Login')]
+[2019-07-15T16:39:54.976] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Login')]
+[2019-07-15T16:39:55.980] [INFO] protractorLog4js - Getting the text from webelement ://strong//span[1]
+[2019-07-15T16:39:55.982] [INFO] protractorLog4js - Expected text would be :Harry Potter
+[2019-07-15T16:39:56.095] [DEBUG] protractorLog4js - Text on webelement ://strong//span[1] Should be equal to Harry Potter
+[2019-07-15T16:39:56.100] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Withdrawl')]
+[2019-07-15T16:39:56.238] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Withdrawl')]
+[2019-07-15T16:39:57.242] [INFO] protractorLog4js - Getting the text from webelement ://div[@class='form-group']//label
+[2019-07-15T16:39:57.243] [INFO] protractorLog4js - Expected text would be :Amount to be Withdrawn :
+[2019-07-15T16:39:57.326] [DEBUG] protractorLog4js - Text on webelement ://div[@class='form-group']//label Should be equal to Amount to be Withdrawn :
+[2019-07-15T16:39:57.429] [INFO] protractorLog4js - Text 2000 is set on webelement: //input[@ng-model='amount']
+[2019-07-15T16:39:57.518] [INFO] protractorLog4js - Clicked on webelement ://button[@type='submit']
+[2019-07-15T16:39:59.522] [INFO] protractorLog4js - Getting the text from webelement ://div[@class='ng-scope']//span[text()='Transaction successful']
+[2019-07-15T16:39:59.523] [INFO] protractorLog4js - Expected text would be :Transaction successful
+[2019-07-15T16:39:59.612] [DEBUG] protractorLog4js - Text on webelement ://div[@class='ng-scope']//span[text()='Transaction successful'] Should be equal to Transaction successful
+[2019-07-15T16:39:59.615] [INFO] protractorLog4js - ****** Execution of Scenario 'Verify the deposit and withdrawl functionality of XYZ bank' has been completed.********
+[2019-07-15T16:39:59.635] [INFO] protractorLog4js - ******** Execution of Scenario 'Verify the deposit and withdrawl functionality of XYZ bank' has been started.********
+[2019-07-15T16:39:59.638] [INFO] protractorLog4js - Browser is opening the URL: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:40:00.561] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:40:00.585] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/login Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-15T16:40:00.586] [INFO] protractorLog4js - Expected title of the page is: Protractor practice website - Banking App
+[2019-07-15T16:40:00.611] [DEBUG] protractorLog4js - Current Title of page is : Protractor practice website - Banking App Should be equal to: Protractor practice website - Banking App
+[2019-07-15T16:40:00.614] [INFO] protractorLog4js - Getting the text from webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:40:00.614] [INFO] protractorLog4js - Expected text would be :Customer Login
+[2019-07-15T16:40:00.670] [DEBUG] protractorLog4js - Text on webelement ://button[contains(text(), 'Customer Login')] Should be equal to Customer Login
+[2019-07-15T16:40:00.673] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:40:00.768] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Customer Login')]
+[2019-07-15T16:40:01.770] [INFO] protractorLog4js - Expected URL is: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:40:01.796] [DEBUG] protractorLog4js - Current URL: http://www.way2automation.com/angularjs-protractor/banking/#/customer Should be equal to: http://www.way2automation.com/angularjs-protractor/banking/#/customer
+[2019-07-15T16:40:01.800] [INFO] protractorLog4js - Getting the text from webelement ://label
+[2019-07-15T16:40:01.800] [INFO] protractorLog4js - Expected text would be :Your Name :
+[2019-07-15T16:40:01.852] [DEBUG] protractorLog4js - Text on webelement ://label Should be equal to Your Name :
+[2019-07-15T16:40:01.855] [INFO] protractorLog4js - Selecting Albus Dumbledoreoption from the dropdown
+[2019-07-15T16:40:02.917] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Login')]
+[2019-07-15T16:40:03.082] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Login')]
+[2019-07-15T16:40:04.086] [INFO] protractorLog4js - Getting the text from webelement ://strong//span[1]
+[2019-07-15T16:40:04.088] [INFO] protractorLog4js - Expected text would be :Albus Dumbledore
+[2019-07-15T16:40:04.182] [DEBUG] protractorLog4js - Text on webelement ://strong//span[1] Should be equal to Albus Dumbledore
+[2019-07-15T16:40:04.184] [INFO] protractorLog4js - Clicking on webelement ://button[contains(text(), 'Withdrawl')]
+[2019-07-15T16:40:04.286] [DEBUG] protractorLog4js - successfully clicked on webelement ://button[contains(text(), 'Withdrawl')]
+[2019-07-15T16:40:05.290] [INFO] protractorLog4js - Getting the text from webelement ://div[@class='form-group']//label
+[2019-07-15T16:40:05.291] [INFO] protractorLog4js - Expected text would be :Amount to be Withdrawn :
+[2019-07-15T16:40:05.343] [DEBUG] protractorLog4js - Text on webelement ://div[@class='form-group']//label Should be equal to Amount to be Withdrawn :
+[2019-07-15T16:40:05.432] [INFO] protractorLog4js - Text 3000 is set on webelement: //input[@ng-model='amount']
+[2019-07-15T16:40:05.521] [INFO] protractorLog4js - Clicked on webelement ://button[@type='submit']
+[2019-07-15T16:40:07.524] [INFO] protractorLog4js - Getting the text from webelement ://div[@class='ng-scope']//span[text()='Transaction successful']
+[2019-07-15T16:40:07.524] [INFO] protractorLog4js - Expected text would be :Transaction successful
+[2019-07-15T16:40:07.572] [DEBUG] protractorLog4js - Text on webelement ://div[@class='ng-scope']//span[text()='Transaction successful'] Should be equal to Transaction successful
+[2019-07-15T16:40:07.574] [INFO] protractorLog4js - ****** Execution of Scenario 'Verify the deposit and withdrawl functionality of XYZ bank' has been completed.********

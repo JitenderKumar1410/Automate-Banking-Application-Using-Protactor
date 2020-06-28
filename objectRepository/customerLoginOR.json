@@ -1,0 +1,22 @@
+{
+    "Locators": {
+        "textOnCustomerLogin": "//label",
+        "selectCustomer": "//select[@id='userSelect']",
+        "login": "//button[contains(text(), 'Login')]",
+        "customerLogin": "//button[contains(text(), 'Customer Login')]",
+        "userAccountScreen": "//strong//span[1]",
+        "logout":"//button[contains(text(), 'Logout')]",
+        "deposit":"//button[contains(text(), 'Deposit')]",
+        "textOnDeposit":"//div[@class='form-group']//label",
+        "depositSection":"//input[@ng-model='amount']",
+        "depositButton":"//button[@type='submit']",
+        "depositScreen":"//div[@class='ng-scope']//span[text()='Deposit Successful']",
+        "withdrawl":"//button[contains(text(), 'Withdrawl')]",
+        "textOnWithdrawl":"//div[@class='form-group']//label",
+        "withdrawlSection":"//input[@ng-model='amount']",
+        "withdrawlButton":"//button[@type='submit']",
+        "withdrawlScreen":"//div[@class='ng-scope']//span[text()='Transaction successful']"
+
+        
+    }
+}

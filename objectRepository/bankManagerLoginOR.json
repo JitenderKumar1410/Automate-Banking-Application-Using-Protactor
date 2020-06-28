@@ -1,0 +1,15 @@
+{
+    "Locators": {
+        "textOnAddCustomer": "//div[@class='marTop']//div[1]//label",
+        "bankManagerLogin":"//button[contains(text(), 'Bank Manager Login')]",
+        "addCustomer":"//button[contains(text(), 'Add Customer')]",
+        "openAccount":"//button[contains(text(), 'Open Account')]",
+        "customers":"//button[contains(text(), 'Customers')]",
+        "firstName":"//input[@ng-model='fName']",
+        "lastName":"//input[@ng-model='lName']",
+        "postCode":"//input[@ng-model='postCd']",
+        "addCustomerButton":"//div[@class='marTop']//button",
+        "process":"//button[contains(text(), 'Process')]", 
+        "textOnOpenAccount":"//div[@class='marTop']//div[1]//label"
+    }
+}

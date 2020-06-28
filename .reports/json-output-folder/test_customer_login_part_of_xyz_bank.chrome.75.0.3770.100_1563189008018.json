@@ -1,0 +1,2691 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test customer login part of XYZ bank",
+    "line": 2,
+    "id": "test-customer-login-part-of-xyz-bank",
+    "tags": [
+      {
+        "name": "@customerLogin",
+        "line": 1
+      },
+      {
+        "name": "@functionalTestCase",
+        "line": 1
+      }
+    ],
+    "uri": "features\\customerLogin.feature",
+    "elements": [
+      {
+        "id": "test-customer-login-part-of-xyz-bank;verify-the-login-and-logout-functionality-of-xyz-bank",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Verify the login and logout functionality of XYZ bank",
+        "tags": [
+          {
+            "name": "@customerLogin",
+            "line": 1
+          },
+          {
+            "name": "@functionalTestCase",
+            "line": 1
+          },
+          {
+            "name": "@loginLogoutTestCase",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User opens the XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3033000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify user is on XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 275000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Check the text of 'customer login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Click on 'customer login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1089000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Verify 'customer login page' open successfully",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Verify 'text on customer login' page",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "Select 'Hermoine Granger' from the list",
+            "match": {
+              "location": "stepDefinations\\customerLogin.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1067000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "Click on 'login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1153000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Verify the 'Hermoine Granger' on 'user account screen'",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "Click on 'logout' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Verify 'customer login page' open successfully",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "Click on 'home' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1098000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Verify user is on XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 125000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-customer-login-part-of-xyz-bank;verify-the-login-and-logout-functionality-of-xyz-bank",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Verify the login and logout functionality of XYZ bank",
+        "tags": [
+          {
+            "name": "@customerLogin",
+            "line": 1
+          },
+          {
+            "name": "@functionalTestCase",
+            "line": 1
+          },
+          {
+            "name": "@loginLogoutTestCase",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User opens the XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 915000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify user is on XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Check the text of 'customer login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Click on 'customer login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1095000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Verify 'customer login page' open successfully",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Verify 'text on customer login' page",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "Select 'Harry Potter' from the list",
+            "match": {
+              "location": "stepDefinations\\customerLogin.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1104000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "Click on 'login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1247000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Verify the 'Harry Potter' on 'user account screen'",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "Click on 'logout' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1097000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Verify 'customer login page' open successfully",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "Click on 'home' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1087000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Verify user is on XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-customer-login-part-of-xyz-bank;verify-the-login-and-logout-functionality-of-xyz-bank",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Verify the login and logout functionality of XYZ bank",
+        "tags": [
+          {
+            "name": "@customerLogin",
+            "line": 1
+          },
+          {
+            "name": "@functionalTestCase",
+            "line": 1
+          },
+          {
+            "name": "@loginLogoutTestCase",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User opens the XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 872000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify user is on XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Check the text of 'customer login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Click on 'customer login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1096000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Verify 'customer login page' open successfully",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Verify 'text on customer login' page",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "Select 'Ron Weasly' from the list",
+            "match": {
+              "location": "stepDefinations\\customerLogin.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1076000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "Click on 'login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1151000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Verify the 'Ron Weasly' on 'user account screen'",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "Click on 'logout' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1107000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Verify 'customer login page' open successfully",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "Click on 'home' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Verify user is on XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-customer-login-part-of-xyz-bank;verify-the-login-and-logout-functionality-of-xyz-bank",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Verify the login and logout functionality of XYZ bank",
+        "tags": [
+          {
+            "name": "@customerLogin",
+            "line": 1
+          },
+          {
+            "name": "@functionalTestCase",
+            "line": 1
+          },
+          {
+            "name": "@loginLogoutTestCase",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User opens the XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 901000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify user is on XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Check the text of 'customer login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Click on 'customer login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1106000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Verify 'customer login page' open successfully",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Verify 'text on customer login' page",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "Select 'Albus Dumbledore' from the list",
+            "match": {
+              "location": "stepDefinations\\customerLogin.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1067000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "Click on 'login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1088000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Verify the 'Albus Dumbledore' on 'user account screen'",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "Click on 'logout' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1088000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Verify 'customer login page' open successfully",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "Click on 'home' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1090000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Verify user is on XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-customer-login-part-of-xyz-bank;verify-the-login-and-logout-functionality-of-xyz-bank",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Verify the login and logout functionality of XYZ bank",
+        "tags": [
+          {
+            "name": "@customerLogin",
+            "line": 1
+          },
+          {
+            "name": "@functionalTestCase",
+            "line": 1
+          },
+          {
+            "name": "@loginLogoutTestCase",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User opens the XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 696000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify user is on XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Check the text of 'customer login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Click on 'customer login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1102000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Verify 'customer login page' open successfully",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Verify 'text on customer login' page",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "Select 'Neville Longbottom' from the list",
+            "match": {
+              "location": "stepDefinations\\customerLogin.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1072000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "Click on 'login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1090000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Verify the 'Neville Longbottom' on 'user account screen'",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "Click on 'logout' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1090000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Verify 'customer login page' open successfully",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "Click on 'home' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1093000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Verify user is on XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-customer-login-part-of-xyz-bank;verify-the-deposit-and-withdrawl-functionality-of-xyz-bank",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Verify the deposit and withdrawl functionality of XYZ bank",
+        "tags": [
+          {
+            "name": "@customerLogin",
+            "line": 1
+          },
+          {
+            "name": "@functionalTestCase",
+            "line": 1
+          },
+          {
+            "name": "@depositAndWithdrawlTestCase",
+            "line": 30
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User opens the XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 796000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "Verify user is on XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "Check the text of 'customer login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "Click on 'customer login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1102000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "Verify 'customer login page' open successfully",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "Verify 'text on customer login' page",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "Select 'Hermoine Granger' from the list",
+            "match": {
+              "location": "stepDefinations\\customerLogin.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1066000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "Click on 'login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1085000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "Verify the 'Hermoine Granger' on 'user account screen'",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "Click on 'deposit' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1089000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "Verify 'text on deposit' page",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "Set the '1000' text under 'deposit section'",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "Click on the 'deposit button' to add money",
+            "match": {
+              "location": "stepDefinations\\customerLogin.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2116000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "Verify the 'Deposit Successful' on 'deposit screen'",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-customer-login-part-of-xyz-bank;verify-the-deposit-and-withdrawl-functionality-of-xyz-bank",
+        "keyword": "Scenario",
+        "line": 49,
+        "name": "Verify the deposit and withdrawl functionality of XYZ bank",
+        "tags": [
+          {
+            "name": "@customerLogin",
+            "line": 1
+          },
+          {
+            "name": "@functionalTestCase",
+            "line": 1
+          },
+          {
+            "name": "@depositAndWithdrawlTestCase",
+            "line": 30
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User opens the XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 862000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "Verify user is on XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "Check the text of 'customer login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "Click on 'customer login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1118000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "Verify 'customer login page' open successfully",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "Verify 'text on customer login' page",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "Select 'Harry Potter' from the list",
+            "match": {
+              "location": "stepDefinations\\customerLogin.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1076000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "Click on 'login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1089000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "Verify the 'Harry Potter' on 'user account screen'",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "Click on 'deposit' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1111000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "Verify 'text on deposit' page",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "Set the '2000' text under 'deposit section'",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "Click on the 'deposit button' to add money",
+            "match": {
+              "location": "stepDefinations\\customerLogin.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2094000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "Verify the 'Deposit Successful' on 'deposit screen'",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-customer-login-part-of-xyz-bank;verify-the-deposit-and-withdrawl-functionality-of-xyz-bank",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "Verify the deposit and withdrawl functionality of XYZ bank",
+        "tags": [
+          {
+            "name": "@customerLogin",
+            "line": 1
+          },
+          {
+            "name": "@functionalTestCase",
+            "line": 1
+          },
+          {
+            "name": "@depositAndWithdrawlTestCase",
+            "line": 30
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User opens the XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 799000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "Verify user is on XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "Check the text of 'customer login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "Click on 'customer login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1097000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "Verify 'customer login page' open successfully",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "Verify 'text on customer login' page",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "Select 'Albus Dumbledore' from the list",
+            "match": {
+              "location": "stepDefinations\\customerLogin.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1061000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "Click on 'login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1098000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "Verify the 'Albus Dumbledore' on 'user account screen'",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "Click on 'deposit' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1091000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "Verify 'text on deposit' page",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "Set the '3000' text under 'deposit section'",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "Click on the 'deposit button' to add money",
+            "match": {
+              "location": "stepDefinations\\customerLogin.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2086000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "Verify the 'Deposit Successful' on 'deposit screen'",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-customer-login-part-of-xyz-bank;verify-the-deposit-and-withdrawl-functionality-of-xyz-bank",
+        "keyword": "Scenario",
+        "line": 51,
+        "name": "Verify the deposit and withdrawl functionality of XYZ bank",
+        "tags": [
+          {
+            "name": "@customerLogin",
+            "line": 1
+          },
+          {
+            "name": "@functionalTestCase",
+            "line": 1
+          },
+          {
+            "name": "@depositAndWithdrawlTestCase",
+            "line": 30
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User opens the XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 860000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "Verify user is on XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "Check the text of 'customer login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "Click on 'customer login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1098000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "Verify 'customer login page' open successfully",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "Verify 'text on customer login' page",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "Select 'Hermoine Granger' from the list",
+            "match": {
+              "location": "stepDefinations\\customerLogin.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1066000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "Click on 'login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1083000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "Verify the 'Hermoine Granger' on 'user account screen'",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "Click on 'withdrawl' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1090000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "Verify 'text on withdrawl' page",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "Set the '1000' text under 'withdrawl section'",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "Click on the 'withdrawl button' to add money",
+            "match": {
+              "location": "stepDefinations\\customerLogin.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2092000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "Verify the 'Transaction successful' on 'withdrawl screen'",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-customer-login-part-of-xyz-bank;verify-the-deposit-and-withdrawl-functionality-of-xyz-bank",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "Verify the deposit and withdrawl functionality of XYZ bank",
+        "tags": [
+          {
+            "name": "@customerLogin",
+            "line": 1
+          },
+          {
+            "name": "@functionalTestCase",
+            "line": 1
+          },
+          {
+            "name": "@depositAndWithdrawlTestCase",
+            "line": 30
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User opens the XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 792000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "Verify user is on XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "Check the text of 'customer login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "Click on 'customer login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1096000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "Verify 'customer login page' open successfully",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "Verify 'text on customer login' page",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "Select 'Harry Potter' from the list",
+            "match": {
+              "location": "stepDefinations\\customerLogin.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1067000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "Click on 'login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "Verify the 'Harry Potter' on 'user account screen'",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "Click on 'withdrawl' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "Verify 'text on withdrawl' page",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "Set the '2000' text under 'withdrawl section'",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 102000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "Click on the 'withdrawl button' to add money",
+            "match": {
+              "location": "stepDefinations\\customerLogin.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2090000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "Verify the 'Transaction successful' on 'withdrawl screen'",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-customer-login-part-of-xyz-bank;verify-the-deposit-and-withdrawl-functionality-of-xyz-bank",
+        "keyword": "Scenario",
+        "line": 53,
+        "name": "Verify the deposit and withdrawl functionality of XYZ bank",
+        "tags": [
+          {
+            "name": "@customerLogin",
+            "line": 1
+          },
+          {
+            "name": "@functionalTestCase",
+            "line": 1
+          },
+          {
+            "name": "@depositAndWithdrawlTestCase",
+            "line": 30
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User opens the XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 922000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "Verify user is on XYZ bank application",
+            "match": {
+              "location": "stepDefinations\\generalTest.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "Check the text of 'customer login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "Click on 'customer login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1098000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "Verify 'customer login page' open successfully",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "Verify 'text on customer login' page",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "Select 'Albus Dumbledore' from the list",
+            "match": {
+              "location": "stepDefinations\\customerLogin.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1061000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "Click on 'login' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1167000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "Verify the 'Albus Dumbledore' on 'user account screen'",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 98000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "Click on 'withdrawl' button",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1105000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "Verify 'text on withdrawl' page",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "Set the '3000' text under 'withdrawl section'",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "Click on the 'withdrawl button' to add money",
+            "match": {
+              "location": "stepDefinations\\customerLogin.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2085000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "Verify the 'Transaction successful' on 'withdrawl screen'",
+            "match": {
+              "location": "stepDefinations\\generalStepDefinations.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "75.0.3770.100"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]
